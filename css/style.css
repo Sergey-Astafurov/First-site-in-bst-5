@@ -1,0 +1,140 @@
+/* font-family: Nunito; */
+:root{
+    --fontNut: Nunito;
+    --fontMont: Montserrat;
+}
+.title{
+    font-family: Nunito;
+    font-weight: 800;
+    font-size: 60px;
+}
+.subtitle{
+    font-size: 20px;
+    line-height: 26px;
+    color: rgba(125, 135, 151, 1);
+}
+body{
+    font-family: var(--fontMont);
+    overflow-x: hidden;
+}
+.logo{
+    margin-right: 130px;
+}
+.navigation{
+    z-index: 100;
+}
+.nav-link {
+    color: rgba(125, 135, 151, 1);
+    font-size: 18px;
+    line-height: 22px;
+    z-index: 20;
+}
+.btn{
+    width: 280px;
+    height: 50px;
+    background: #5360FE;
+    border-radius: 25px;
+    color: white;
+}
+.title-text{
+    margin-top: 175px;
+    
+
+}
+.subtitle-text{
+    
+    margin-top: 28px;
+}
+.promo{
+    position: relative;
+}
+.img-head{
+    position: absolute;
+    left: 800px;
+    top: 60px;
+}
+.link-price a{
+    display: block;
+    box-sizing: border-box;
+    padding: 24px 60px;
+    text-decoration: none;
+    color: white;
+    width: 290px;
+    height: 70px;
+    border-radius: 35px;
+    background: rgba(83, 96, 254, 1);
+    text-align: center;
+    font-style: 18px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+.bacg img{
+    position: absolute;
+    width: 2000px;
+    height: 1000px;
+    left: -50px;
+    top: 133.92px;
+    z-index: -100;
+}
+
+.work{
+    padding-top: 290px;
+    margin-bottom: 100px;
+}
+.img-work{
+    width: 860px;
+    height: 690px;
+    margin-left: -200px;
+}
+.p-work{
+    padding: 70px 0 90px 0;
+}
+.block{
+    font-family: var(--fontMont);
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 35px;  
+    color: #04035F;
+    padding-left: 110px;
+}
+
+.adv-1{
+    margin-bottom: 60px;
+    position: relative;
+    
+}
+.adv-1::before{
+    content: '';
+    display: block;
+    background-image: url('../img/2б\ Иконка\ 1.png');
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: -10px;
+    left: -20px;
+}
+.adv-2{
+    position: relative;
+}
+.adv-2::before{
+    content: '';
+    display: block;
+    background-image: url('../img/2\ б\ Иконка\ 2.png');
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: -10px;
+    left: -20px;
+}
+.card{
+    padding: 50px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+    max-width: 610px;
+    max-height: 100%;
+}
+
+.card-img{
+    width: 100px;
+    height: 100px;
+}
