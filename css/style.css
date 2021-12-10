@@ -1,59 +1,71 @@
 /* font-family: Nunito; */
-:root{
+:root {
     --fontNut: Nunito;
     --fontMont: Montserrat;
 }
-.title{
+
+.title {
     font-family: Nunito;
     font-weight: 800;
     font-size: 60px;
 }
-.subtitle{
+
+.subtitle {
     font-size: 20px;
     line-height: 26px;
     color: rgba(125, 135, 151, 1);
 }
-body{
+
+body {
     font-family: var(--fontMont);
     overflow-x: hidden;
 }
-.logo{
+
+.logo {
     margin-right: 130px;
 }
-.navigation{
+
+.navigation {
     z-index: 100;
 }
+
 .nav-link {
     color: rgba(125, 135, 151, 1);
     font-size: 18px;
     line-height: 22px;
     z-index: 20;
 }
-.btn{
+
+.btn {
     width: 280px;
     height: 50px;
     background: #5360FE;
     border-radius: 25px;
     color: white;
 }
-.title-text{
+
+.title-text {
     margin-top: 175px;
-    
+
 
 }
-.subtitle-text{
-    
+
+.subtitle-text {
+
     margin-top: 28px;
 }
-.promo{
+
+.promo {
     position: relative;
 }
-.img-head{
+
+.img-head {
     position: absolute;
     left: 800px;
     top: 60px;
 }
-.link-price a{
+
+.link-price a {
     display: block;
     box-sizing: border-box;
     padding: 24px 60px;
@@ -68,7 +80,8 @@ body{
     font-weight: bold;
     margin-top: 40px;
 }
-.bacg img{
+
+.bacg img {
     position: absolute;
     width: 2000px;
     height: 1000px;
@@ -77,33 +90,37 @@ body{
     z-index: -100;
 }
 
-.work{
+.work {
     padding-top: 290px;
     margin-bottom: 100px;
 }
-.img-work{
+
+.img-work {
     width: 860px;
     height: 690px;
     margin-left: -200px;
 }
-.p-work{
+
+.p-work {
     padding: 70px 0 90px 0;
 }
-.block{
+
+.block {
     font-family: var(--fontMont);
     font-weight: bold;
     font-size: 24px;
-    line-height: 35px;  
+    line-height: 35px;
     color: #04035F;
     padding-left: 110px;
 }
 
-.adv-1{
+.adv-1 {
     margin-bottom: 60px;
     position: relative;
-    
+
 }
-.adv-1::before{
+
+.adv-1::before {
     content: '';
     display: block;
     background-image: url('../img/2б\ Иконка\ 1.png');
@@ -113,10 +130,12 @@ body{
     top: -10px;
     left: -20px;
 }
-.adv-2{
+
+.adv-2 {
     position: relative;
 }
-.adv-2::before{
+
+.adv-2::before {
     content: '';
     display: block;
     background-image: url('../img/2\ б\ Иконка\ 2.png');
@@ -126,15 +145,124 @@ body{
     top: -10px;
     left: -20px;
 }
-.card{
+
+.card {
     padding: 50px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     margin-right: 10px;
     max-width: 610px;
     max-height: 100%;
+    transition: .4s all ease-in-out;
+    filter: grayscale(80%);
+    border-radius: 16px;
+
 }
 
-.card-img{
+.card:hover {
+    transform: translateY(-30px);
+    filter: grayscale(0);
+    box-shadow: 0px 30px 50px rgba(0, 0, 0, 0.1);
+}
+
+.card-img {
     width: 100px;
     height: 100px;
+    margin-bottom: 40px;
+
 }
+
+.card-text {
+    padding: 80px 0;
+}
+
+.subtitle-card {
+    margin-top: 25px;
+}
+.contact {
+    max-width: 1310px;
+    height: 850px;
+    background: #5360FE;
+    border-radius: 70px;
+    margin: 100px auto;
+    font-size: 20px;
+    color: #04035F;
+    padding: 70px 110px;
+    position: relative;
+}
+
+
+.contact-block {
+}
+.contact-body {
+    
+}
+.contact-title, .contact-subtitle {
+    color: white;
+}
+
+.contact-subtitle {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 35px;
+    margin-bottom: 70px;
+
+}
+::placeholder{
+    font-family: var(--fontNut);
+    font-weight: bold;
+    font-size: 20px;
+    color: #04035F !important;
+} 
+
+
+
+.form-control, .form-select{
+    
+    padding: 25px;
+    border-radius: 35px;
+}
+.form-select{
+    font-weight: bold;
+    font-size: 20px;
+    color: #04035F !important;
+    margin-bottom: 30px;
+
+}
+.form-check{
+    font-size: 16px;
+    text-align: center;
+    color: white;
+     margin: 0 auto !important; 
+}
+.form-check label{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.form-check input{
+    padding-right: 10px;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    background: none;
+    border-color: #fff;
+}
+
+.btn-primary{
+    display: block;
+    margin: 30px auto;
+    width: 227px;
+    height: 70px;
+    border-radius: 35px;
+    background: #22215B;
+    font-weight: bold;
+    font-size: 18px;
+    color: #EEF7FE;
+
+}
+.line{
+    position: absolute;
+    z-index: -20;
+    top: -10px;
+    left: -500px;
+}
+
