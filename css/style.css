@@ -180,13 +180,14 @@ body {
 }
 .contact {
     max-width: 1310px;
-    height: 850px;
+    min-height: 850px;
     background: #5360FE;
     border-radius: 70px;
     margin: 100px auto;
     font-size: 20px;
     color: #04035F;
     padding: 70px 110px;
+    margin-bottom: 210px;
     position: relative;
 }
 
@@ -217,7 +218,10 @@ body {
 
 
 .form-control, .form-select{
-    
+
+    font-size: 20px;
+    font-weight: bold;
+    color: #04035F !important;
     padding: 25px;
     border-radius: 35px;
 }
@@ -266,3 +270,48 @@ body {
     left: -500px;
 }
 
+.footer-title {
+    margin-bottom: 80px;
+}
+
+.footer-container {
+}
+.container {
+}
+.col {
+}
+.foooter-contact {
+    padding-bottom: 45px;
+    font-size: 20px;
+    color: #7D8797;
+    
+}
+.foooter-contact:nth-last-child(n+4){
+    padding-bottom: 70px;
+}
+.foooter-contact b{
+    color: #22215B;
+    font-size: 24px;
+}
+.society{
+    padding: 0;
+    margin: 0;
+    width: 395px;
+}
+.society .col{
+    filter: grayscale(100%);
+    padding: 0;
+    margin: 0;
+    transition: .4s all  ease-in-out;
+}
+.society .col:hover{
+    filter: grayscale(100%);
+    filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.2));
+    transform: translateY(-30px);
+
+}
+.block-copy{
+    padding: 90px;
+    font-size: 20px;
+    color: #22215B;
+}
