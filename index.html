@@ -17,68 +17,78 @@
 </head>
 
 <body>
-    <div class="header">
-        <div class="container mt-5 ">
-            <div class="row">
-                <div class="col-lg-3  d-flex  align-items-center mr-auto  ">
-                    <div class="logo">
-                        <img src="./img/Лого.png" alt="">
+    <div class="header mt-5">
+
+        <div class="container">
+
+
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <div class="container-fluid">
+                    <a class="navbar-brand " href="#">
+                        <div class="logo ">
+                            <img src="./img/Лого.png" alt="">
+                        </div>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                            <li class="nav-item">
+                                <a class="nav-link px-3" aria-current="page" href="#">Услуги</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-3" href="#">Проекты</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-3" href="#">Компания</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-3" href="#">Контакты</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-3" href="#">Обучение</a>
+                            </li>
+                        </ul>
                     </div>
+                    <div class="col-md-3">
+                        <div class="button-btn">
+                            <button class="btn">Оставить заявку</button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="row promo pt-5">
+            <div class="col-lg-8   ">
+                <div class="title title-text text-sm-center">
+                    Продвигаем и издаём <br> игры и приложения
+                </div>
+                <div class=" subtitle subtitle-text text-sm-center">
+                    Тщательно анализируем результаты, грамотно
+                    поддерживаем <br> в развитии и монетизизации вашего продукта
+                </div>
+                <div class="link-price  pb-5 ">
+                    <a href="http://">Узнать стоимость</a>
                 </div>
 
-                <div class="col-md-6  navigation justify-content-center">
-                    <ul class=" nav navbar  flex-row justify-content-beetwen   ">
-                        <li class="nav-item ">
-                            <a class="nav-link" href="#">Услуги</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Проекты</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Компания</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Контакты</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Обучение</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-3">
-                    <div class="button-btn">
-                        <button class="btn">Оставить заявку</button>
-                    </div>
-                </div>
             </div>
-            <div class="row promo pt-5">
-                <div class="col-lg-8   ">
-                    <div class="title title-text">
-                        Продвигаем и издаём <br> игры и приложения
-                    </div>
-                    <div class=" subtitle subtitle-text">
-                        Тщательно анализируем результаты, грамотно
-                        поддерживаем <br> в развитии и монетизизации вашего продукта
-                    </div>
-                    <div class="link-price ">
-                        <a href="http://">Узнать стоимость</a>
-                    </div>
-
-                </div>
-                <div class="col-lg-4  img ">
-                    <img class="img-head" src="./img/header.png" alt="">
-                </div>
+            <div class="col-lg-4 col-sm-12 img ">
+                <img class="img-head img-fluid" src="./img/header.png" alt="">
             </div>
         </div>
     </div>
     <div class="bacg">
-        <img src="./img/Фон между 1 и 2.svg" alt="">
+        <img class="img-fluid" src="./img/Фон между 1 и 2.svg" alt="">
     </div>
+
     <section class="work">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-12">
-                    <img src="./img/2 блок.png" class=" img-work " alt="">
+                    <img src="./img/2 блок.png" class=" img-work img-fluid " alt="">
                 </div>
                 <div class="col-md-6 col-sm-12">
                     <h3 class="title">Чем мы занимаемся?</h3>
@@ -163,21 +173,21 @@
                                 <form>
                                     <div class="row">
                                         <div class="col-md-6 col-sm-12 mb-5">
-                                        <input type="Name" placeholder="Name" class="form-control"
-                                             aria-describedby="emailHelp">
+                                            <input type="Name" placeholder="Name" class="form-control"
+                                                aria-describedby="emailHelp">
+                                        </div>
+                                        <div class="col-md-6 col-sm-12 mb-5">
+                                            <input type="Telephone" placeholder="Telephone" class="form-control">
+                                        </div>
+                                        <div class="col-md-6 col-sm-12 mb-5">
+                                            <input type="email" placeholder="Email" class="form-control"
+                                                aria-describedby="emailHelp">
+                                        </div>
+                                        <div class="col-md-6 col-sm-12  mb-5">
+                                            <input type="password" placeholder="Password" class="form-control">
+                                        </div>
                                     </div>
-                                    <div class="col-md-6 col-sm-12 mb-5">
-                                        <input type="Telephone" placeholder="Telephone" class="form-control">
-                                    </div>
-                                    <div class="col-md-6 col-sm-12 mb-5">
-                                        <input type="email" placeholder="Email" class="form-control"
-                                    aria-describedby="emailHelp">
-                                    </div>
-                                    <div class="col-md-6 col-sm-12  mb-5">
-                                        <input type="password" placeholder="Password" class="form-control">
-                                    </div>
-                                    </div>
-                                    
+
                                     <select class="form-select form-select" aria-label=".form-select-sm example">
                                         <option selected>Чем мы можем помочь?</option>
                                         <option value="1">One</option>
@@ -186,7 +196,8 @@
                                     </select>
                                     <div class="col-md-6 d-flex text-center align-content-center form-check">
                                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                        <label class="form-check-label" for="exampleCheck1">Я согласен(-на) на обработку персональных данных.</label>
+                                        <label class="form-check-label" for="exampleCheck1">Я согласен(-на) на обработку
+                                            персональных данных.</label>
                                     </div>
                                     <button type="submit" class="btn   btn-primary">Отправить</button>
 
@@ -233,44 +244,44 @@
                                 <span>
                                     Пн - Пт 10:00 - 18:00
                                     <br>
-                                    Сб - Вс  выходной
-                                    
-                                    
-                                    
+                                    Сб - Вс выходной
                                 </span>
-                                
+
                             </div>
                             <div class="row society">
-                            <div class="col"><a href="#">
-                                <img src="./img/icons/Twitter.svg" alt="">
-                            </a></div>
-                            <div class="col"><a href="#">
-                                <img src="./img/icons/Youtube.svg" alt="">
-                            </a></div>
-                            
-                            <div class="col"><a href="#">
-                                <img src="./img/icons/Instagram.svg" alt="">
-                            </a></div>
-                            <div class="col"><a href="#">
-                                <img src="./img/icons/Vkontakte.svg" alt="">
-                            </a></div>
+                                <div class="col"><a href="#">
+                                        <img src="./img/icons/Twitter.svg" alt="">
+                                    </a></div>
+                                <div class="col"><a href="#">
+                                        <img src="./img/icons/Youtube.svg" alt="">
+                                    </a></div>
+
+                                <div class="col"><a href="#">
+                                        <img src="./img/icons/Instagram.svg" alt="">
+                                    </a></div>
+                                <div class="col"><a href="#">
+                                        <img src="./img/icons/Vkontakte.svg" alt="">
+                                    </a></div>
+                            </div>
                         </div>
-                        </div>
-                        
+
                     </div>
-                </div> 
-            </div> 
+                </div>
+            </div>
             <div class="row block-copy text-center">
                 <div class="col-12">
                     APP-publisher, © 2021
                     Политика конфиденциальности
                 </div>
-            </div>   
-                
+            </div>
+
         </div>
     </footer>
 
-
+    <!-- Пакет JavaScript с Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
     <script src="./js/script.js"></script>
 </body>
 
