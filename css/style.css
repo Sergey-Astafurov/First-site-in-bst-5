@@ -79,6 +79,10 @@ body {
     top: 60px;
 }
 
+.link-price{
+    max-width: 290px;
+
+}
 .link-price a {
     display: block;
     box-sizing: border-box;
